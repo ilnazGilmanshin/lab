@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('71_36_18.csv', header=None)
+df = pd.read_csv('l71_36_18.csv', header=None)
 X = df.values
 
 X_scaled = StandardScaler().fit_transform(X)
